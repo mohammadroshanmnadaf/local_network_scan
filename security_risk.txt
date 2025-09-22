@@ -1,0 +1,16 @@
+#security risks from open ports 
+
+Port 53 (DNS): Could be exploited for DNS cache poisonin  attacks if misconfigured. Limit exposure and use secure DNS settings.
+
+Port 80 (HTTP): Unencrypted traffic can be intercepted or modified by attackers. Prefer HTTPS to secure communication.
+
+Port 443 (HTTPS): Generally secure, but outdated TLS/SSL versions or weak ciphers could be exploited.
+                  So keep certificates and protocols updated.
+
+Port 135 (MSRPC): Often targeted for Windows exploits and remote code execution vulnerabilities (e.g., WannaCry).
+                  Should be restricted to trusted networks.
+
+Port 139 (NetBIOS-SSN): Can expose Windows file sharing services to enumeration or brute-force attacks. 
+                        Block or limit access to trusted systems only.
+
+Port 445 (Microsoft-DS/SMB): Frequently exploited by ransomware and worms. 

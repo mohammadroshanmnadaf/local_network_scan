@@ -1,0 +1,14 @@
+#nmap scripts used to scan 
+
+#nmap scan using TCP SYN scan
+nmap -sS 192.168.x.0/24
+# -sS : SYN scan (Stealth Scan)
+# This scan sends SYN packets to the destination ports and wait for a response.
+# If a SYN ACK rececived the port is open, if RST is received the port is closed.
+
+
+#nmap scan using TCP connect scan 
+nmap -sT 192.168.x.0/24
+#-sT : TCP connect scan 
+#Completes full TCP handshake to check if port is open or close.
+# Slower and more easily detected by the target system.

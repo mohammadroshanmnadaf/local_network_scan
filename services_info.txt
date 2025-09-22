@@ -1,0 +1,19 @@
+#common services running on these ports
+
+Port 21 (FTP) - File Transfer Protocol- Transfers files between systems. Commonly disabled or secured because plain FTP transmits credentials in cleartext.
+
+Port 22 (SSH) - Secure Shell- Encrypted remote login and command execution.
+
+Port 23 (Telnet) - Telnet- Unencrypted remote login.
+
+Port 53 (DNS) - Domain Name System- Resolves domain names to IP addresses.
+
+Port 80 (HTTP) - HyperText Transfer Protocol- Unencrypted web traffic.
+
+Port 443 (HTTPS) - Secure HyperText Transfer Protocol- Encrypted web traffic.
+
+Port 135 (MSRPC) - Microsoft RPC- Used for Microsoft remote procedure calls.
+
+Port 139 (NetBIOS-SSN) - NetBIOS Session Service- Windows file/printer sharing.
+
+Port 445 (Microsoft-DS) - SMB- Windows file/printer sharing over TCP.
