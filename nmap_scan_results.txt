@@ -1,4 +1,4 @@
-# Nmap 7.98 scan initiated Mon Sep 22 15:48:38 2025 as: nmap -sS -oN scan_results.txt 192.168.1.0/24
+# Nmap 7.98 scan initiated Mon Sep 22 15:48:38 2025 as: nmap -sS -oN scan_results.txt 192.168.x.0/24
 Nmap scan report for 192.168.x.x
 Host is up (0.028s latency).
 Not shown: 994 closed tcp ports (reset)
@@ -26,3 +26,4 @@ PORT    STATE SERVICE
 445/tcp open  microsoft-ds
 
 # Nmap done at Mon Sep 22 15:49:05 2025 -- 256 IP addresses (3 hosts up) scanned in 26.77 seconds
+
